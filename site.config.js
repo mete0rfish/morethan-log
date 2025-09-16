@@ -2,18 +2,22 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Meteorfish",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/notion-avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Backend Developer",
     bio: "I create everything!",
     email: "sungwon326@naver.com",
-    linkedin: "sungwonyoon1",
+    linkedin: "sungwonyun01",
     github: "mete0rfish",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `onetool`,
+      href: "https://github.com/likelion-onetool/backend",
+    },
+    {
+      name: "GGZz",
+      href: "https://github.com/dog-feet-bird-feet/server"
     },
   ],
   // blog setting (required)
@@ -24,9 +28,9 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  link: "https://mete0rfish-blog.vercel.app",
+  since: 2025, // If leave this empty, current year will be used.
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
