@@ -12,11 +12,11 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `onetool`,
+      name: `onetool (3D 도면 거래 플랫폼)`,
       href: "https://github.com/likelion-onetool/backend",
     },
     {
-      name: "GGZz",
+      name: "GGZZ (AI 기반 필적 분석 앱)",
       href: "https://github.com/dog-feet-bird-feet/server"
     },
   ],
